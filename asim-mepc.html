@@ -32,7 +32,7 @@ function gatekeeper() {
   var ackBox = document.getElementsByName('ackDisclaimer');
   if (ackBox[0].checked) {
     console.log('ackDisclaimer checkbox is checked');
-    return true;
+     return true;
   }
   else {
     console.log('ackDisclaimer checkbox is NOT checked');
@@ -129,7 +129,8 @@ and press the submit button.
 
 <table align=left border=0>
 <tr><td>
-   <form method="post" action="asim-meps.html" onsubmit="return gatekeeper();">
+   <!-- ><form name="me" method="post" action="asim-meps.html" onsubmit="return gatekeeper();"> -->
+   <form name="me" method="post" action="" onsubmit="return gatekeeper();">
         Check here: 
         <input type="checkbox" name="ackDisclaimer" value="agreed">&nbsp;&nbsp; 
         <br><br>
@@ -139,8 +140,10 @@ and press the submit button.
         Enter answer of 21+15 here:
         <input type="text" name="MYCHECKSNUM" class="tright"/>
         <br><br>
-        Press here: <input type="submit" />
+        <!-- Press here: <input type="submit" /> -->
+        <input type="hidden" />
    </form>
+   Press here: <button onclick="window.location='asim-meps.html'">Submit</button>
 </td></tr>
 
 </table>
