@@ -1,0 +1,149 @@
+<HTML>
+<BODY BGCOLOR="#FFFFFFF">
+   <BR><B><FONT SIZE=+1><CENTER> STATUS&nbsp;&nbsp;REPORT </CENTER></FONT></B>
+<BR><BR>
+<B>Timestamp:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>DATE:&nbsp;5-9-2006&nbsp;&nbsp;Hours:&nbsp;11&nbsp;&nbsp;Minutes:&nbsp;27</I><p></FONT>
+SRM Service Path:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>srm://fledgling05.fnal.gov:8443//srm/managerv2</I><p></FONT>
+HostName running srm-tester:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>dmx09.lbl.gov</I><p></B><HR></FONT>
+<UL>
+  <LI> <B> PING  : <FONT COLOR="#ff0000">FAILED 
+		</FONT><p> </B> </LI>
+</UL><HR>
+<UL>
+<p><LI> <B>Sending Put Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/gridcat.test.4</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> PUT  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : TransferURL has been returned. </LI></UL>
+</UL>
+<UL>
+<LI><B>Doing GsiFTP now.<p> </B> </LI>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	From:</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	To:</I></TD><TD>gsiftp://fledgling05.fnal.gov:2812///gridcat.test.4</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> GsiFTP  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> PutDone  : <FONT COLOR="#0000CD">SRM_DONE</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> ReleaseFile  : <FONT COLOR="#ff0000">SRM_FAILURE </FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : request for requestToken "-2147459771"is not srmPrepareToGet request </LI></UL>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Request.id</I></TD><TD>-2147459771</TD></TR>
+  <TR><TD><I>Request.status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	Size</I></TD><TD>15</TD></TR>
+  <TR><TD><I>	Status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TransferURL</I></TD><TD>gsiftp://fledgling05.fnal.gov:2812///gridcat.test.4</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/gridcat.test.4</TD></TR>
+ </TABLE>
+</UL><HR>
+<UL>
+<p><LI> <B>Sending Get Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	SourceURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/gridcat.test.4</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>file:////tmp/getTestForGIN</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> GET  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : TransferURL has been returned. </LI></UL>
+</UL>
+<UL>
+<LI><B>Doing GsiFTP now.<p> </B> </LI>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	From:</I></TD><TD>gsiftp://fledgling05.fnal.gov:2812///gridcat.test.4</TD></TR>
+  <TR><TD><I>	To:</I></TD><TD>file:////tmp/getTestForGIN</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> GsiFTP  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Request.id</I></TD><TD>-2147459769</TD></TR>
+  <TR><TD><I>Request.status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	Size</I></TD><TD>15</TD></TR>
+  <TR><TD><I>	Status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	SourceURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/gridcat.test.4</TD></TR>
+  <TR><TD><I>	TransferURL</I></TD><TD>gsiftp://fledgling05.fnal.gov:2812///gridcat.test.4</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>file:////tmp/getTestForGIN</TD></TR>
+ </TABLE>
+</UL><HR>
+<UL>
+<LI><p><B>Sending SRM Browse Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>SURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/</TD></TR>
+</TABLE></UL>
+<UL>
+<LI> <B> Browse  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+<p><TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>OrigSURL</I></TD><TD>srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim/</TD></TR>
+  <TR><TD><I>Path</I></TD><TD>/pnfs/fnal.gov/data/asim/</TD></TR>
+  <TR><TD><I>Size</I></TD><TD>512</TD></TR>
+  <TR><TD><I>Type</I></TD><TD>Directory</TD></TR>
+  <TR><TD><I>Storage Type</I></TD><TD>Permanent</TD></TR>
+  <TR><TD><I>Status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>Last Accessed</I></TD><TD>2006:4:9:18:28:27</TD></TR>
+<p></TABLE>
+<p><UL><TABLE WIDTH="200" BORDER="1">
+  <TR><TD BGCOLOR="99CCCC"><I>OrigSURL</I></TD><TD BGCOLOR="99CCCC">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//put.test</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Path</I></TD><TD BGCOLOR="99CCCC">/pnfs/fnal.gov/data/asim//put.test</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Size</I></TD><TD BGCOLOR="99CCCC">108</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Type</I></TD><TD BGCOLOR="99CCCC">File</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Storage Type</I></TD><TD BGCOLOR="99CCCC">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Status</I></TD><TD BGCOLOR="99CCCC">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Last Accessed</I></TD><TD BGCOLOR="99CCCC">2006:4:9:0:25:18</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>OrigSURL</I></TD><TD BGCOLOR="99FFFF">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//put.test.1</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Path</I></TD><TD BGCOLOR="99FFFF">/pnfs/fnal.gov/data/asim//put.test.1</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Size</I></TD><TD BGCOLOR="99FFFF">108</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Type</I></TD><TD BGCOLOR="99FFFF">File</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Storage Type</I></TD><TD BGCOLOR="99FFFF">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Status</I></TD><TD BGCOLOR="99FFFF">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Last Accessed</I></TD><TD BGCOLOR="99FFFF">2006:4:9:17:41:8</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>OrigSURL</I></TD><TD BGCOLOR="99CCCC">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//gridcat.test.1</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Path</I></TD><TD BGCOLOR="99CCCC">/pnfs/fnal.gov/data/asim//gridcat.test.1</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Size</I></TD><TD BGCOLOR="99CCCC">15</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Type</I></TD><TD BGCOLOR="99CCCC">File</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Storage Type</I></TD><TD BGCOLOR="99CCCC">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Status</I></TD><TD BGCOLOR="99CCCC">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Last Accessed</I></TD><TD BGCOLOR="99CCCC">2006:4:8:19:17:28</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>OrigSURL</I></TD><TD BGCOLOR="99FFFF">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//gridcat.test</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Path</I></TD><TD BGCOLOR="99FFFF">/pnfs/fnal.gov/data/asim//gridcat.test</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Size</I></TD><TD BGCOLOR="99FFFF">15</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Type</I></TD><TD BGCOLOR="99FFFF">File</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Storage Type</I></TD><TD BGCOLOR="99FFFF">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Status</I></TD><TD BGCOLOR="99FFFF">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Last Accessed</I></TD><TD BGCOLOR="99FFFF">2006:4:5:22:46:13</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>OrigSURL</I></TD><TD BGCOLOR="99CCCC">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//put.test.2</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Path</I></TD><TD BGCOLOR="99CCCC">/pnfs/fnal.gov/data/asim//put.test.2</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Size</I></TD><TD BGCOLOR="99CCCC">108</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Type</I></TD><TD BGCOLOR="99CCCC">File</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Storage Type</I></TD><TD BGCOLOR="99CCCC">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Status</I></TD><TD BGCOLOR="99CCCC">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99CCCC"><I>Last Accessed</I></TD><TD BGCOLOR="99CCCC">2006:4:9:17:52:14</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>OrigSURL</I></TD><TD BGCOLOR="99FFFF">srm://fledgling05.fnal.gov:8443//srm/managerv2?SFN=/pnfs/fnal.gov/data/asim//gridcat.test.4</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Path</I></TD><TD BGCOLOR="99FFFF">/pnfs/fnal.gov/data/asim//gridcat.test.4</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Size</I></TD><TD BGCOLOR="99FFFF">15</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Type</I></TD><TD BGCOLOR="99FFFF">File</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Storage Type</I></TD><TD BGCOLOR="99FFFF">Permanent</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Status</I></TD><TD BGCOLOR="99FFFF">SRM_SUCCESS</TD></TR>
+  <TR><TD BGCOLOR="99FFFF"><I>Last Accessed</I></TD><TD BGCOLOR="99FFFF">2006:4:9:18:28:27</TD></TR>
+<p></UL></TABLE>
+</UL><HR>
+</UL>

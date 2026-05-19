@@ -1,0 +1,53 @@
+<HTML>
+<BODY BGCOLOR="#FFFFFFF">
+   <BR><B><FONT SIZE=+1><CENTER> STATUS&nbsp;&nbsp;REPORT </CENTER></FONT></B>
+<BR><BR>
+<B>Timestamp:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>DATE:&nbsp;8-16-2006&nbsp;&nbsp;Hours:&nbsp;11&nbsp;&nbsp;Minutes:&nbsp;58</I><p></FONT>
+SRM Service Path:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>srm://grid.uio.no:58000//srm/managerv1</I><p></FONT>
+HostName running srm-tester:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>dmx09.lbl.gov</I><p></B><HR></FONT>
+<UL>
+<p><LI> <B>Sending Ping Request now...</B></LI><p>
+</UL><p>
+<UL>
+  <LI> <B> PING  : <FONT COLOR="#0000CD">SUCCESS 
+			</FONT><p> </B> </LI>
+</UL><HR>
+<UL>
+<p><LI> <B>Sending Put Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://grid.uio.no:58000//srm/managerv1?SFN=/oxana/gsiftptest.2</TD></TR>
+ </TABLE>
+</UL><p>
+<UL>
+<p><LI> <B> PUT  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : TransferURL has been returned. </LI></UL>
+</UL>
+<UL>
+<p><LI><B>Doing GsiFTP now.<p> </B> </LI>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	From:</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	To:</I></TD><TD>https://grid.uio.no:58001/srm/managerv1//oxana/gsiftptest.2</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+ <p><TABLE WIDTH="550" BORDER="1">
+  <TR><TD><I>Start Time:</I></TD><TD>8-16-2006:11:59:6</TD><TD><I>End Time:</I></TD><TD>&nbsp;&nbsp</TD></TR>
+  <TR><TD><I>File Size:</I></TD><TD>15</TD><TD><I>Status:</I></TD><TD> <FONT COLOR ="#ff0000"> FAILED</TD></TR>
+ </TABLE>
+<p><UL><LI><I>Explanation</I> : SourceURL did not get copied to TargetURL UrlCopy transfer failed. [Root error message: Mutual authentication failed
+  Expected target subject name="/DC=org/DC=doegrids/OU=People/CN=Alexander Sim 546622"
+  Target returned subject name="/O=Grid/O=NorduGrid/CN=host/grid.uio.no"] </LI></UL>
+</UL>
+<UL>
+<p><LI> <B> RequestSummary</B> </LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>request.id</I></TD><TD>94</TD></TR>
+  <TR><TD><I>request.state</I></TD><TD>Active</TD></TR>
+  <TR><TD><I>request.type</I></TD><TD>put</TD></TR>
+  <TR><TD><I>	status</I></TD><TD>Ready</TD></TR>
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TransferURL</I></TD><TD>https://grid.uio.no:58001/srm/managerv1//oxana/gsiftptest.2</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://grid.uio.no:58000//srm/managerv1?SFN=/oxana/gsiftptest.2</TD></TR>
+ </TABLE>
+</UL><HR>

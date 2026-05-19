@@ -1,0 +1,136 @@
+<HTML>
+<BODY BGCOLOR="#FFFFFFF">
+   <BR><B><FONT SIZE=+1><CENTER> STATUS&nbsp;&nbsp;REPORT </CENTER></FONT></B>
+<BR><BR>
+<B>Timestamp:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>DATE:&nbsp;5-8-2006&nbsp;&nbsp;Hours:&nbsp;15&nbsp;&nbsp;Minutes:&nbsp;30</I><p></FONT>
+SRM Service Path:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer</I><p></FONT>
+HostName running srm-tester:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>dmx09.lbl.gov</I><p></B><HR></FONT>
+<UL>
+  <LI> <B> PING  : <FONT COLOR="#0000CD">SUCCESS 
+			</FONT><p> </B> </LI>
+</UL><HR>
+<UL>
+<p><LI> <B>Sending Put Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/gridcat.test</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> PUT  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : TransferURL has been returned. </LI></UL>
+</UL>
+<UL>
+<LI><B>Doing GsiFTP now.<p> </B> </LI>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	From:</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	To:</I></TD><TD>gsiftp://dmx09.lbl.gov////tmp/VijiSRM/cache/v2/__DC=org__DC=doegrids__OU=People__CN=AlexanderSim546622/gridcat.test-V.0</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> GsiFTP  : <FONT COLOR="#ff0000">FAILED </FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : SourceURL did not get copied to TargetURL UrlCopy transfer failed. [Root error message: Server refused performing the request. Custom message:  (error code 1) [Nested exception message:  Custom message: Unexpected reply: 500-Command failed. : globus_l_gfs_file_open failed.
+500-globus_xio: Unable to open file ///tmp/VijiSRM/cache/v2/__DC=org__DC=doegrids__OU=People__CN=AlexanderSim546622/gridcat.test-V.0
+500-globus_xio: System error in open: Permission denied
+500-globus_xio: A system call failed: Permission denied
+500 End.]] </LI></UL>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Request.id</I></TD><TD>__DC=org__DC=doegrids__OU=People__CN=AlexanderSim546622:2(PUT)</TD></TR>
+  <TR><TD><I>Request.status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	Size</I></TD><TD>15</TD></TR>
+  <TR><TD><I>	Status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TransferURL</I></TD><TD>gsiftp://dmx09.lbl.gov////tmp/VijiSRM/cache/v2/__DC=org__DC=doegrids__OU=People__CN=AlexanderSim546622/gridcat.test-V.0</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/gridcat.test</TD></TR>
+ </TABLE>
+</UL><HR>
+<UL>
+<LI> <B> AbortFiles  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI><HR>
+</UL>
+<UL>
+<LI><p><B>Sending SRM Browse Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>SURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/</TD></TR>
+</TABLE></UL>
+<UL>
+<LI> <B> Browse  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+<p><TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Path</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/</TD></TR>
+  <TR><TD><I>Type</I></TD><TD>null</TD></TR>
+  <TR><TD><I>Status</I></TD><TD>SRM_INVALID_PATH</TD></TR>
+  <TR><TD><I>Explanation</I></TD><TD>File is gone from Disk</TD></TR>
+<p></TABLE>
+</UL><HR>
+</UL>
+   <BR><B><FONT SIZE=+1><CENTER> STATUS&nbsp;&nbsp;REPORT </CENTER></FONT></B>
+<BR><BR>
+<B>Timestamp:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>DATE:&nbsp;5-8-2006&nbsp;&nbsp;Hours:&nbsp;15&nbsp;&nbsp;Minutes:&nbsp;30</I><p></FONT>
+SRM Service Path:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer</I><p></FONT>
+HostName running srm-tester:&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000CD"><I>dmx09.lbl.gov</I><p></B><HR></FONT>
+<UL>
+  <LI> <B> PING  : <FONT COLOR="#0000CD">SUCCESS 
+			</FONT><p> </B> </LI>
+</UL><HR>
+<UL>
+<p><LI> <B>Sending Put Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/gridcat.test</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> PUT  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+<p><UL><LI><I>Explanation</I> : TransferURL has been returned. </LI></UL>
+</UL>
+<UL>
+<LI><B>Doing GsiFTP now.<p> </B> </LI>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>	From:</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	To:</I></TD><TD>gsiftp://dmx09.lbl.gov////tmp/VijiSRM/cache/v2/__DC=org__DC=doegrids__OU=People__CN=VijayaLakshmiNatarajan553105/gridcat.test-V.0</TD></TR>
+ </TABLE>
+</UL>
+<UL>
+<LI> <B> GsiFTP  : <FONT COLOR="#0000CD">SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> PutDone  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> ReleaseFile  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Request.id</I></TD><TD>__DC=org__DC=doegrids__OU=People__CN=VijayaLakshmiNatarajan553105:0(PUT)</TD></TR>
+  <TR><TD><I>Request.status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	Size</I></TD><TD>15</TD></TR>
+  <TR><TD><I>	Status</I></TD><TD>SRM_SUCCESS</TD></TR>
+  <TR><TD><I>	SourceURL</I></TD><TD>file:////data/GIN/gridcat-srmtester/./srm-tester-put.txt</TD></TR>
+  <TR><TD><I>	TransferURL</I></TD><TD>gsiftp://dmx09.lbl.gov////tmp/VijiSRM/cache/v2/__DC=org__DC=doegrids__OU=People__CN=VijayaLakshmiNatarajan553105/gridcat.test-V.0</TD></TR>
+  <TR><TD><I>	TargetURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/gridcat.test</TD></TR>
+ </TABLE>
+</UL><HR>
+<UL>
+<LI><p><B>Sending SRM Browse Request now...</B></LI><p>
+ <TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>SURL</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/</TD></TR>
+</TABLE></UL>
+<UL>
+<LI> <B> Browse  : <FONT COLOR="#0000CD">SRM_SUCCESS</FONT><p> </B> </LI>
+</UL>
+<UL>
+<LI> <B> RequestSummary</B> </LI><p>
+<p><TABLE WIDTH="200" BORDER="1">
+  <TR><TD><I>Path</I></TD><TD>srm://dmx09.lbl.gov:8445//srm/srmv2/testServer?SFN=/~/</TD></TR>
+  <TR><TD><I>Type</I></TD><TD>null</TD></TR>
+  <TR><TD><I>Status</I></TD><TD>SRM_INVALID_PATH</TD></TR>
+  <TR><TD><I>Explanation</I></TD><TD>File is gone from Disk</TD></TR>
+<p></TABLE>
+</UL><HR>
+</UL>
